@@ -1,0 +1,71 @@
+@import 'variables';
+
+nav{
+    background-color: $white;
+
+    .logo{
+        color: $black;
+    }
+
+    .menu-main-page-menu-container{
+
+        ul.main-menu-list{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+            padding: 0;
+
+            li{
+                position: relative;
+                margin: 0 0 0 1rem;
+                
+                a{
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    font-weight: 400;
+                    color: $black;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav{
+        .burger-menu{
+            display: flex;
+            flex-direction: column;
+
+            .burger-line{
+                width: 30px;
+                height: 2px;
+                background-color: $black;
+            }
+        }
+
+        .menu-main-page-menu-container{
+            width: 100%;
+            background-color: $white;
+            display: none;
+            top: 54px;
+            left: 0;
+
+            ul.main-menu-list{
+                display: flex;
+                flex-direction: column;
+
+                li{
+                    
+                    a{
+                        display: block;
+                        width: 100%;
+                        font-size: 1rem;
+                        padding: 10px 0;
+                    }
+                }
+            }
+        }
+    }
+    
+}
