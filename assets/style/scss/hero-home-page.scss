@@ -1,0 +1,20 @@
+section.hero-home-page {
+    height: 100vh;
+
+    .outlined-text{
+        font-weight: bold;
+        color: transparent;
+        -webkit-text-stroke: 1.5px black;
+    }
+
+    .text-behind-the-character{
+        font-size: 175px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero-home-page-image{
+        width: 40%;
+        position: absolute;
+    }
+}

@@ -2,7 +2,6 @@
 <?php get_template_part('parts/nav'); ?>
 <main>
     <article>
-        <h1>INDEX</h1>
         <?php the_content(); ?>
     </article>
 </main>
